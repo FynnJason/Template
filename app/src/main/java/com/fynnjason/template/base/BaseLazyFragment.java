@@ -1,4 +1,4 @@
-package com.wy.kuaikantoutiao.base;
+package com.fynnjason.template.base;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,8 +23,8 @@ import butterknife.Unbinder;
  * 2.fragment是左右两边的，此时左右两边fragment的setUserVisibleHint不会执行load方法，
  * onViewCreated因为视图不可见原因也不会执行load方法，所以只有切换到左右两边fragment时，
  * 该fragment为可见状态，才会重新进入setUserVisibleHint去执行一次load
- *
- * Created by FynnJason on 2018/04/02
+ * <p>
+ * FynnJason
  */
 
 
